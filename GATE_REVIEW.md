@@ -1,8 +1,9 @@
 # S6 human gate: proposed 75-venue shortlist
 
-Status: **WAITING FOR EXPLICIT USER APPROVAL RELAYED BY THE COORDINATOR**.
-This packet is selection evidence only. No venue content has been copied and no
-S6 dry-run or import has been started.
+Status: **APPROVED AND APPLIED TO THE LOCAL COMPANION**. The approval is
+preserved in [`GATE_DECISION.md`](GATE_DECISION.md). Exactly the 75 selected
+venue profiles have been copied; no S6 catalog dry-run, promotion, or import
+has been started.
 
 ## Provenance and review snapshot
 
@@ -12,6 +13,8 @@ S6 dry-run or import has been started.
 - License: MIT (`LICENSE` is preserved at the companion repository root)
 - Companion: `https://github.com/arinova-ai/skills-awesome-journal-skills`
 - Selection-content commit: `0444f9914c982e5132e1b10334d04fc22dc5c79b`
+- Copied-content commit: `59a631f8075483ed32ed137e194334ef2897edff`
+- Byte-level copy inventory: `COPY_MANIFEST.tsv`
 - Local upstream root: `/Users/ripple/skill-gap-2-upstreams/S6-journal-skills`
 - Local companion root: `/Users/ripple/orca/workspaces/arinova-skill-companions/skills-awesome-journal-skills`
 - Review list with exact paths and per-venue rationale: `SELECTION.md`
@@ -57,14 +60,12 @@ The numbered table in `SELECTION.md` is the authoritative shortlist. Each row
 contains its discipline, venue name, exact upstream `SKILL.md` path, and the
 reason it is representative.
 
-## Decision requested
+## Decision outcome
 
-Please explicitly choose one of these outcomes:
+`GATE_DECISION.md` records **APPROVE S6 SHORTLIST**. The approved outcome was:
 
 - **APPROVE S6 SHORTLIST** — authorize copying and importing exactly these 75
   venue profiles.
-- **REQUEST CHANGES** — identify additions/removals or a selection-rule change;
-  do not start S6 import.
 
-Silence, a passing scan, or approval of another package does not pass this
-gate.
+This checkpoint applies only the local companion-copy portion. Catalog
+acquisition, promotion, staging, and production remain separate gates.

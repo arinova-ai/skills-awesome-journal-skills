@@ -1,8 +1,10 @@
 # Proposed 75-venue subset
 
-Gate status: **awaiting coordinator approval**. These paths identify content at
+Gate status: **approved and copied to the local companion**. These paths
+identify content at
 `brycewang-stanford/Awesome-Journal-Skills@36b2bbb357fa51c258311028af66721b5cf99347`.
-No venue content has been copied or imported.
+All 75 paths now exist in this companion; none has been imported into the
+catalog.
 
 The list deliberately selects exactly one prompt-only venue profile per venue.
 It uses a consolidated profile when the upstream collection provides one and a

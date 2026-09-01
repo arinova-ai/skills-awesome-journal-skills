@@ -1,6 +1,6 @@
 # Awesome Journal Skills curated companion
 
-This repository will redistribute a reviewed subset of representative venue
+This repository redistributes a reviewed subset of representative venue
 profiles from
 [`brycewang-stanford/Awesome-Journal-Skills`](https://github.com/brycewang-stanford/Awesome-Journal-Skills).
 The upstream repository contains 4,166 `SKILL.md` entries across 744 journal
@@ -28,7 +28,9 @@ topic-selection/fit profile. Selection favors:
 - profiles that remain useful without bundled code, images, datasets, fonts,
   vendor credentials, or a proprietary runtime.
 
-The proposed 75-venue list is recorded in [`SELECTION.md`](SELECTION.md).
-No venue content will be copied or imported until the coordinator explicitly
-approves that list.
-
+The approved 75-venue list is recorded in [`SELECTION.md`](SELECTION.md). The
+profiles retain their exact upstream paths, and `COPY_MANIFEST.tsv` records
+their source hashes. Thirty-two directly referenced source-basis, source-map,
+tool, and exemplar files are included at their upstream paths so every local
+resource reference made by a selected profile resolves. No catalog dry-run,
+promotion, or import has been performed from this companion checkpoint.
