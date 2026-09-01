@@ -1,6 +1,6 @@
 # Awesome Journal Skills curated companion
 
-This repository will redistribute a reviewed subset of representative venue
+This repository redistributes a reviewed subset of representative venue
 profiles from
 [`brycewang-stanford/Awesome-Journal-Skills`](https://github.com/brycewang-stanford/Awesome-Journal-Skills).
 The upstream repository contains 4,166 `SKILL.md` entries across 744 journal
@@ -23,12 +23,17 @@ topic-selection/fit profile. Selection favors:
   NEJM, The Lancet, PNAS, and JAMA);
 - leading specialist venues across the upstream project's 11 broad discipline
   groups;
-- a mix of empirical, theoretical, methods, review, and practice-facing venues;
+- empirical, theoretical, and practice-facing profiles; the approved shortlist
+  has no dedicated methods or review venue;
 - geographic and language representation, including major Chinese journals;
 - profiles that remain useful without bundled code, images, datasets, fonts,
   vendor credentials, or a proprietary runtime.
 
-The proposed 75-venue list is recorded in [`SELECTION.md`](SELECTION.md).
-No venue content will be copied or imported until the coordinator explicitly
-approves that list.
-
+The approved 75-venue list is recorded in [`SELECTION.md`](SELECTION.md). The
+profiles retain their exact upstream paths, and `COPY_MANIFEST.tsv` records
+their source hashes. Thirty-two source-basis, source-map, tool, and exemplar
+files are included at their upstream paths. The reconstructed audit in
+[`GATE_DECISION.md`](GATE_DECISION.md) records one inherited malformed HLR
+inline pointer plus the sibling-workflow routes that are intentionally absent.
+No catalog dry-run, promotion, or import has been performed from this companion
+checkpoint.
