@@ -27,9 +27,9 @@ venues. The proposed set contains **75 unique venues**, within the required
 
 1. Include globally recognized multidisciplinary and clinical flagships,
    specifically Nature, Science, Cell, NEJM, The Lancet, PNAS, and JAMA.
-2. Cover all broad scholarly areas represented by the upstream collection,
-   including methods, theoretical, empirical, review, and practice-facing
-   publishing contexts.
+2. Seek broad scholarly-area and publishing-context coverage. The reconstructed
+   audit records that the approved set has empirical, theoretical, and
+   practice-facing profiles but no dedicated methods or review venue.
 3. Preserve geographic and language breadth, including major Chinese journals.
 4. Prefer the upstream consolidated venue profile; where a venue is a detailed
    multi-skill pack, select only its `topic-selection`/fit profile. This avoids
@@ -51,7 +51,7 @@ venues. The proposed set contains **75 unique venues**, within the required
 | Computer science and AI | 6 |
 | Economics, business, and finance | 10 |
 | Social sciences and education | 8 |
-| Chinese and regional representation | 5 |
+| Chinese-language representation | 5 |
 | Humanities and law | 6 |
 | Agriculture, environment, and earth systems | 4 |
 | **Total** | **75** |
@@ -59,6 +59,11 @@ venues. The proposed set contains **75 unique venues**, within the required
 The numbered table in `SELECTION.md` is the authoritative shortlist. Each row
 contains its discipline, venue name, exact upstream `SKILL.md` path, and the
 reason it is representative.
+
+The reconstructed audit in `GATE_DECISION.md` records known coverage limits,
+pointer/dead-end sibling routes, resource resolution, and Chinese provenance.
+It is fresh factual evidence, not a verbatim recovery of truncated reviewer
+notes. The approval and all 75 selected paths remain unchanged.
 
 ## Decision outcome
 

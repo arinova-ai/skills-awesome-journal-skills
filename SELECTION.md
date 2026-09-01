@@ -11,6 +11,11 @@ It uses a consolidated profile when the upstream collection provides one and a
 `topic-selection` profile for detailed 12-skill packs, avoiding the accidental
 12x expansion that copying every sub-skill would cause.
 
+Evidence-recovery note: the group formerly labeled "Chinese and regional
+representation" contained only Chinese-language venues. It is now labeled
+"Chinese-language representation" below. This wording correction changes no
+approved path.
+
 | # | Discipline group | Venue | Upstream profile path | Why representative |
 | ---: | --- | --- | --- | --- |
 | 1 | General and cross-disciplinary | Nature | `English-NaturalScience-Journal-Skills/skills/nature/SKILL.md` | Global multidisciplinary flagship |
@@ -73,11 +78,11 @@ It uses a consolidated profile when the upstream collection provides one and a
 | 58 | Social sciences and education | Journal of Communication | `Journal-of-Communication-Skills/skills/joc-topic-selection/SKILL.md` | Communication research flagship |
 | 59 | Social sciences and education | Public Administration Review | `Public-Administration-Review-Skills/skills/pubar-topic-selection/SKILL.md` | Public-administration flagship |
 | 60 | Social sciences and education | American Journal of Sociology | `American-Journal-of-Sociology-Skills/skills/ajs-topic-selection/SKILL.md` | General sociology theory and empirical leader |
-| 61 | Chinese and regional representation | 经济研究 (Economic Research Journal) | `Chinese-SocialScience-Journal-Skills/skills/economic-research/SKILL.md` | Leading Chinese economics journal |
-| 62 | Chinese and regional representation | 管理世界 (Management World) | `Chinese-SocialScience-Journal-Skills/skills/management-world/SKILL.md` | Leading Chinese management journal |
-| 63 | Chinese and regional representation | 中国社会科学 (Social Sciences in China) | `Chinese-SocialScience-Journal-Skills/skills/social-sciences-in-china/SKILL.md` | Broad Chinese social-science flagship |
-| 64 | Chinese and regional representation | 体育科学 (China Sport Science) | `Chinese-Sport-Science-Journal-Skills/skills/china-sport-science/SKILL.md` | Leading Chinese sport-science journal |
-| 65 | Chinese and regional representation | 北京体育大学学报 | `Chinese-Sport-Science-Journal-Skills/skills/journal-of-beijing-sport-university/SKILL.md` | Representative sport and physical-education venue |
+| 61 | Chinese-language representation | 经济研究 (Economic Research Journal) | `Chinese-SocialScience-Journal-Skills/skills/economic-research/SKILL.md` | Leading Chinese economics journal |
+| 62 | Chinese-language representation | 管理世界 (Management World) | `Chinese-SocialScience-Journal-Skills/skills/management-world/SKILL.md` | Leading Chinese management journal |
+| 63 | Chinese-language representation | 中国社会科学 (Social Sciences in China) | `Chinese-SocialScience-Journal-Skills/skills/social-sciences-in-china/SKILL.md` | Broad Chinese social-science flagship |
+| 64 | Chinese-language representation | 体育科学 (China Sport Science) | `Chinese-Sport-Science-Journal-Skills/skills/china-sport-science/SKILL.md` | Leading Chinese sport-science journal |
+| 65 | Chinese-language representation | 北京体育大学学报 | `Chinese-Sport-Science-Journal-Skills/skills/journal-of-beijing-sport-university/SKILL.md` | Representative sport and physical-education venue |
 | 66 | Humanities and law | The American Historical Review | `English-Humanities-Journal-Skills/skills/the-american-historical-review/SKILL.md` | General history flagship |
 | 67 | Humanities and law | PMLA | `English-Humanities-Journal-Skills/skills/pmla/SKILL.md` | Literature and language flagship |
 | 68 | Humanities and law | Critical Inquiry | `English-Humanities-Journal-Skills/skills/critical-inquiry/SKILL.md` | Interdisciplinary humanities theory leader |

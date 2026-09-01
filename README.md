@@ -23,14 +23,17 @@ topic-selection/fit profile. Selection favors:
   NEJM, The Lancet, PNAS, and JAMA);
 - leading specialist venues across the upstream project's 11 broad discipline
   groups;
-- a mix of empirical, theoretical, methods, review, and practice-facing venues;
+- empirical, theoretical, and practice-facing profiles; the approved shortlist
+  has no dedicated methods or review venue;
 - geographic and language representation, including major Chinese journals;
 - profiles that remain useful without bundled code, images, datasets, fonts,
   vendor credentials, or a proprietary runtime.
 
 The approved 75-venue list is recorded in [`SELECTION.md`](SELECTION.md). The
 profiles retain their exact upstream paths, and `COPY_MANIFEST.tsv` records
-their source hashes. Thirty-two directly referenced source-basis, source-map,
-tool, and exemplar files are included at their upstream paths so every local
-resource reference made by a selected profile resolves. No catalog dry-run,
-promotion, or import has been performed from this companion checkpoint.
+their source hashes. Thirty-two source-basis, source-map, tool, and exemplar
+files are included at their upstream paths. The reconstructed audit in
+[`GATE_DECISION.md`](GATE_DECISION.md) records one inherited malformed HLR
+inline pointer plus the sibling-workflow routes that are intentionally absent.
+No catalog dry-run, promotion, or import has been performed from this companion
+checkpoint.

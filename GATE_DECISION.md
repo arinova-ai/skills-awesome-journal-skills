@@ -13,16 +13,67 @@ Authorize copying and importing exactly these 75 venue profiles per SELECTION.md
 
 Compliance verdict: agree. Quality verdict: agree ("defensible as-is").
 
-### Non-blocking reviewer notes (for the record; optional improvements, not conditions)
-- Non-blocking documentation nit: GATE_REVIEW.md states the upstream spans '744 journal and conference venues'. The companion figure of 4,166 SKILL.md files reproduces exactly, but I could not independently reproduce 744 —
-- Scope note, not a mismatch: this packet is a selection gate only, so it carries no per-skill rubric scoring and no 5 representative tasks (expected_success / ambiguous_input / missing_capability / unsafe_request / duplic
-- DANGLING RESOURCE REFS (fix before dry-run) — all 75/75 selected SKILL.md files reference ../../resources/source-basis.md and/or ../../resources/official-source-map.md, which the shortlist does not import. In Nature's pr
-- TWO CHINESE PICKS ARE POINTER STUBS, NOT FIT PROFILES — rows 61 and 62 select Chinese-SocialScience-Journal-Skills/skills/economic-research/SKILL.md and .../management-world/SKILL.md, but both explicitly delegate their s
-- TOPIC-SELECTION PICKS EMIT A DEAD-END NEXT STEP — the eleven *-topic-selection rows cross-reference sibling skills that will not be imported. APSR's output format literally ends '【Next】apsr-literature-positioning', and i
-- ZERO CONFERENCES — the largest weighting call, and the one I would most like reconsidered. Upstream carries NeurIPS, ICML, ICLR, CVPR, ACL, EMNLP, KDD, SIGGRAPH, STOC, SODA, VLDB and more, each with a *-topic-selection p
-- NO REVIEW OR METHODS VENUE, CONTRADICTING THE SELECTION'S OWN STANDARD #2 — GATE_REVIEW.md commits to covering 'methods, theoretical, empirical, review, and practice-facing publishing contexts', but nothing among the 75 
-- MEDICINE AND LIFE SCIENCES SKEW AWAY FROM HIGHEST CONSUMER-INTEREST FIELDS — two of eight medicine slots go to cardiology (Circulation + European Heart Journal) while clinical oncology has none (journal-of-clinical-oncol
-- ECONOMICS IS THE HEAVIEST GROUP AND PSYCHOLOGY THE THINNEST, WHICH IS INVERTED FOR A CONSUMER CATALOG — economics/business/finance takes 10 of 75, effectively ~12 once the Chinese econ/management picks are counted, again
-- CHINESE PICKS: THREE RIGHT, TWO QUESTIONABLE — 经济研究, 管理世界 and 中国社会科学 are exactly the three venues a Chinese-language author would name first, so the core is sound. But 2 of 5 Chinese slots going to sport science (体育科学 an
-- GROUP LABEL 'Chinese and regional representation' OVERSTATES ITS CONTENTS — the group is Chinese-only; there is no non-Chinese regional venue in it. Some Asian representation does sit in the English groups (National Scie
-- PROVENANCE ASYMMETRY ON THE CHINESE ROWS, PER THE PINNED COMMIT'S OWN MESSAGE — commit 36b2bbb3 records that the subject vocabulary reaches none of the 105 Chinese journals, that 28 of them state an ISSN and Crossref kno
+## Evidence-integrity notice
+
+The original capture of the reviewer's non-blocking notes was truncated in
+transit. It ended mid-word or mid-sentence, so its exact prose is unavailable.
+Those fragments are not quotations and have been removed. No missing words or
+reviewer intent are inferred below.
+
+## Reconstructed factual audit (not verbatim reviewer prose)
+
+The following findings were re-audited from the pinned upstream tree, the
+approved `SELECTION.md`, and the copied local files on 2026-09-02. They preserve
+the visible concerns without pretending to recover the lost wording.
+
+1. **Upstream inventory.** The upstream tree contains 4,166 `SKILL.md` files.
+   `shared-resources/journal-selection/venue-index.tsv` contains 744 data rows:
+   557 journals and 187 conferences. This independently reproduces both counts
+   used by the review packet.
+2. **Packet scope.** The approval packet is a shortlist gate. It does not claim
+   per-skill rubric scores or five-task behavioral evaluations. Those remain
+   future acquisition-review evidence rather than evidence supplied here.
+3. **Resources.** The local copy includes 32 upstream resource files recorded
+   in `COPY_MANIFEST.tsv`; each is byte-identical to the pinned upstream file.
+   A fresh scan found 169 relative-path mentions in the 75 profiles: 168 resolve
+   locally. The sole exception is an upstream-existing inline pointer in
+   `Harvard-Law-Review-Skills/skills/hlr-topic-selection/SKILL.md` to
+   `../official-source-map.md`; that target is absent in both trees, while the
+   actual upstream file is at `../../resources/official-source-map.md`. The
+   selected profile remains byte-identical, so this inherited defect is
+   documented rather than silently rewritten.
+4. **Chinese pointer profiles.** Rows 61 and 62 are useful fit summaries, but
+   deeper steps route to the absent `Economic-Research-Journal-Skills` and
+   `Journal-of-Management-World-Skills` packs (`er-*` and `mw-*` workflows).
+5. **Topic-selection sibling routes.** Nine approved paths are
+   `*-topic-selection` profiles. Each names an absent sibling as its next step.
+   Together with the two Chinese pointer profiles, 11 of the 75 selected
+   profiles have a deeper-workflow route that this curated copy does not carry.
+6. **Conference balance.** The selected set contains 0 conferences even though
+   the upstream index contains 187. The approved 75 paths remain unchanged.
+7. **Methods and review balance.** The shortlist contains no venue selected
+   specifically as a methods or review venue. Several profiles discuss methods,
+   review articles, or meta-analysis, but that is not equivalent to selecting a
+   dedicated methods/review venue. The earlier selection-standard wording is
+   therefore a coverage aspiration, not a demonstrated property of this set.
+8. **Medicine and life-science balance.** The table assigns 8 venues to
+   medicine/health and 7 to life sciences. Two medicine rows are cardiology
+   venues; no clinical-oncology venue is selected. `Cancer Cell` supplies a
+   mechanistic-oncology venue in the life-sciences group.
+9. **Discipline weighting.** Economics/business/finance has 10 rows, plus 2
+   Chinese economics/management rows. Psychology is represented by 2 rows:
+   `Psychological Science` and `Journal of Applied Psychology`.
+10. **Chinese composition.** The five Chinese-language rows comprise three
+    economics/management/general-social-science venues and two sport-science or
+    physical-education venues. The group label has been corrected from
+    "Chinese and regional" to "Chinese-language"; no path changed.
+11. **Chinese provenance asymmetry.** At the pinned upstream commit, the
+    subject-vocabulary index covers 597/744 venues but none of 105
+    Chinese-language journals. Twenty-eight of those journals state an ISSN,
+    and Crossref resolves none of the 28; DBLP does not index journals. The five
+    selected Chinese profiles therefore rely on their prose and copied official
+    source maps rather than the upstream subject-vocabulary layer.
+
+These findings are non-blocking records. **APPROVE S6 SHORTLIST** remains
+settled, and this recovery changes neither the decision nor any of the 75
+approved paths.
